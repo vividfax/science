@@ -84,7 +84,6 @@ function draw() {
         touchPoints[i].move(touches[i].x, touches[i].y-50);
         touchPoints[i].update();
         touchPoints[i].display();
-        text(touchPoints.length, 10, 10);
     }
 }
 

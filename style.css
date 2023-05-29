@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "Cherry Bomb One";
+    src: url("./fonts/CherryBombOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #A59132;
+    color: #625834;
+    font-family: "Cherry Bomb One", sans-serif;
 }
 
 canvas {
@@ -11,4 +20,13 @@ canvas {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#p5_loading {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
 }
